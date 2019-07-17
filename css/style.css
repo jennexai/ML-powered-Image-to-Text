@@ -1,0 +1,72 @@
+
+#log > div {
+    color: #313131;
+    border-top: 1px solid #dadada;
+    padding: 9px;
+    display: flex;
+}
+#log > div:first-child {
+    border: 0;
+}
+
+button{
+   border:1px solid sliver;
+   padding:4px; 
+   background-color:transparent;
+}
+
+.browsefile{
+	border: 1px solid gray;
+    background-color: #a5a5a5;
+    width: 15%;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+select{
+	 
+	padding:4px; 
+    border: 3px solid #069;
+    color: gray;
+}
+
+.output{
+	color:gray;
+	font-family:verdana;
+	font-size:14px;
+}
+
+.status {
+	min-width: 250px;
+	color:pink;
+}
+#log { 
+	width:60%;
+	border:2px solid gray;
+    padding: 10px;
+    margin-top: 20px;
+    min-height: 100px;
+}
+body {
+    font-family: sans-serif;
+    margin: 30px;
+	color:white;
+	font-weight:bold;
+}
+
+progress {
+    display: block;
+    width: 100%;
+    transition: opacity 0.5s linear;
+}
+progress[value="1"] {
+    opacity: 0.5;
+}
+
+.error{
+	text-color:red;
+	font-weight:normal;
+	border:1px solid brown;
+	text-align:center;
+	padding:10px;
+}
