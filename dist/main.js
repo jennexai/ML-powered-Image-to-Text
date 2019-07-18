@@ -1,4 +1,8 @@
- function progressUpdate(packet)
+/**
+ * @author ElLooper https://github.com/elLooper
+ */
+
+function progressUpdate(packet)
  {
         var log = document.getElementById('log');
 
